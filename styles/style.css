@@ -1,0 +1,21 @@
+/* header Style  */
+
+.bg-color {
+    background-color: #fceae8;
+}
+
+.nav-link {
+    margin: 0 6px;
+}
+
+.nav-link:hover {
+    background-color: #ff4b92;
+    border-radius: 3px;
+}
+
+.btn {
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    background-image: linear-gradient(to bottom, #FF589B 0%, #ff4b92 100%);
+}
