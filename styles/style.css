@@ -1,4 +1,7 @@
 /* header Style  */
+.navbar {
+    border-radius: 3px;
+}
 
 .bg-color {
     background-color: #fceae8;
