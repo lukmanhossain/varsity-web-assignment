@@ -45,3 +45,19 @@
     height: 215px;
     width: 235px;
 }
+
+.btn-cl {
+    color: #E76F51;
+}
+
+.fa-star.filled {
+    color: #E77C40;
+}
+
+.fa-star.empty {
+    color: #db726086;
+}
+
+.author {
+    color: #ff4b92;
+}
