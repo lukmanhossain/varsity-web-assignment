@@ -61,3 +61,8 @@
 .author {
     color: #ff4b92;
 }
+
+.reg a {
+    text-decoration: none;
+    color: #ff4b92;
+}
