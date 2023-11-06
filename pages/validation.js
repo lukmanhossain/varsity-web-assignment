@@ -1,5 +1,5 @@
 function form() {
-    var fname = document.getElementById("ifname").value;
+    var name = document.getElementById("iname").value;
     var email = document.getElementById("iemail").value;
     var mobile = document.getElementById("imob").value;
     var pass = document.getElementById("ipass").value;
@@ -10,19 +10,19 @@ function form() {
     var passpattern = /((?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*><?()*&+_])).{8,20}/;
 
     //first name
-    if (fname.length < 2 || fname.length > 20) {
+    if (name.length < 2 || name.length > 20) {
         // alert("length must be 2-20");
-        document.getElementById("efname").innerHTML = "length must be 2-20";
+        document.getElementById("name").innerHTML = "length must be 2-20";
         return false;
     }
-    else if (!fname.match(namepattern)) {
+    else if (!name.match(namepattern)) {
         // alert("invalid input");
-        document.getElementById("efname").innerHTML = "invalid input";
+        document.getElementById("name").innerHTML = "invalid input";
         return false;
     }
     else {
         // alert("valid");
-        document.getElementById("efname").innerHTML = "";
+        document.getElementById("name").innerHTML = "";
 
     }
 
